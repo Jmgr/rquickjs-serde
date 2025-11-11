@@ -9,7 +9,7 @@ readme = "README.md"
 authors = ["Emile Fugulin <code@efugulin.com>", "The Javy Project Developers"]
 
 [dependencies]
-rquickjs = "0.9"
+rquickjs = { git = "https://github.com/DelSkayn/rquickjs.git", rev = "3fc3d357c08ae3df2090a4954dfa0739cd44a602" }
 serde = "1"
 
 [dev-dependencies]
